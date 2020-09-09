@@ -1,0 +1,24 @@
+package com.syntax.class21;
+
+
+///One of interview question which has been asked in one of 
+//interview
+public class Constructors{
+	Constructors(){
+		this(1);
+		System.out.println("Hi");
+	}
+	Constructors(int x){
+		this(1, 2);
+		System.out.println("Hello");
+	}
+	Constructors(int x, int y){
+		System.out.println("How are you");
+	}
+	
+	public static void main(String[]args) {
+		
+		Constructors  obj = new Constructors();
+	}
+
+}
